@@ -3,6 +3,9 @@
 
 import Demo from "./Databinding/Demo.js";
 import HandleEvent from "./HanddleEvent/HandleEvent.js";
+import HomeLayout from "./Props/DemoProps/HomeLayout.js";
+import ShoesShop from "./Props/ShoesShop/ShoesShop.js";
+import RenderWithMap from "./RenderWithMap/RenderWithMap.js";
 import StateDemo from "./StateDemo/StateDemo.js";
 import StyleComponent from "./StyleComponent/StyleComponent.js";
 
@@ -21,7 +24,11 @@ function App() {
       {/* <Demo /> */}
       {/* <HandleEvent/> */}
       {/* <StyleComponent/> */}
-      <StateDemo/>
+      {/* <StateDemo/> */}
+      {/* <HomeLayout/> */}
+      {/* <RenderWithMap/> */}
+      <ShoesShop/>
+      
     </div>
   );
 }
